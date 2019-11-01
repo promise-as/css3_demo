@@ -1,0 +1,55 @@
+.zheng{
+  width: 50px;
+  height: 50px;
+  border-top: 50px solid #f00;
+  border-left: 50px solid #0f0;
+  border-right: 50px solid #00f;
+  border-bottom: 50px solid #ff0;
+}
+.wubian{
+  margin: 100px auto;
+  width: 54px;
+  height: 0;
+  border-top: 50px solid red;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  position: relative;
+}
+.wubian::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 35px solid red;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  top: -85px;
+  left: -18px;
+}
+.six{
+  margin: 100px auto;
+  width: 100px;
+  height: 55px;
+  background-color: red;
+  position: relative;
+}
+.six::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: -25px;
+}
+.six::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 25px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: 55px;
+}

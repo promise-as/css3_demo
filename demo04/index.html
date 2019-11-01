@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>伪元素</title>
+	<style type="text/css">
+		.demo{
+			border: 1px solid #ccc;
+			width: 300px;
+			margin: 50px auto;
+			padding: 10px;
+		}
+		.demo::first-letter{
+			font-size: 40px;
+			font-weight: bold;
+			float: left;
+		}
+		.demo::first-line{
+			color: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="demo">
+		伪元素：befor 和 :after可以做的东西是相当惊人的。对于页面上的每一个元素，你拥有了两个更灵活的、而且可以完成其他HTML元素都能完成的东西元素。它们让一大推有趣的设计成为可能，而且不会对你的语义标签产生负面影响。这里有
+	</div>
+</body>
+</html>
