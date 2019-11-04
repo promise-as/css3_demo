@@ -1,0 +1,22 @@
+.bg{
+  margin: 100px auto;
+  width: 800px;
+  height: 300px;
+  background-color: #ccc;
+  position: relative;
+}
+.cont{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  opacity: 0.8;
+  top: 45px;
+  left: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-sizing: 3px 3px 5px #888;
+  -moz-box-sizing: 3px 3px 5px #888;
+  box-sizing: 3px 3px 5px #888;
+}
