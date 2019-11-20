@@ -1,0 +1,23 @@
+img{
+  width: 200px;
+}
+.main{
+  width: 260px;
+  /*height: 270px;*/
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  font-family: 'Microsoft YaHei';
+}
+.m_title{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 10px 10px 10px;
+}
+.m_content{
+  color: #11ccaa;
+  padding: 0 10px 10px 10px;
+}
+.m_img{
+  
+}
